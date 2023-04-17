@@ -1,6 +1,6 @@
 # Calculator app
 
-![Design preview for the Calculator app coding challenge](./calculator-design.jpeg)
+![Design preview for the Calculator app coding challenge]
 
 ## Welcome! 👋
 
@@ -20,8 +20,8 @@ The users can be able to:
 
 ### Links
 
-- Solution CODE: [https://github.com/lougc/calculator-app]
-- Live Site URL: [https://lougc.github.io/calculator-app/]
+- Solution CODE: [https://github.com/Lourdes84/calculator]
+- Live Site URL: [https://lourdes84.github.io/calculator/]
 
 ## My process
 
