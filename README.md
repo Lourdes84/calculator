@@ -1,7 +1,5 @@
 # Calculator app
 
-![Design preview for the Calculator app coding challenge]
-
 ## Welcome! 👋
 
 This is a solution to Calculator app on Frontend Mentor.
