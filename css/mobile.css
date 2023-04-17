@@ -1,0 +1,28 @@
+/* MOBILE VERSION */
+
+@media (max-width: 452px) {
+    body {
+        justify-content: flex-start;
+    }
+
+    .content {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+    }
+
+    .content__header,
+    .calculator__screen {
+        width: 85%; 
+    }
+
+    .calculator__keypad {
+        width: 85%;
+        gap: .5rem;
+    }
+    .calculator__button {
+        height: 75px;
+    }
+   
+}

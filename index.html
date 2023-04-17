@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Calculator app</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body id="body">
+  
+    <!--MAIN WIDGET -->
+
+    <main class="content">
+
+      <!-- HEADER -->
+
+      <header class="content__header">
+        <div class="content__header__title">
+          <span>calc</span>
+        </div>
+
+        <div class="content__theme">
+            <div>
+              <span>1</span>
+              <span>2</span>
+              <span>3</span> 
+            </div>
+          
+            <!-- SWITCH BUTTON -->
+
+            <div class="switch-container">
+                <div>
+                  <span>Theme</span>
+                </div>
+
+                <!-- THEME NAVIGATION -->
+
+                <nav class="switch__button">
+                    <a href="#" class="content__theme__link" id="themeOne">1</a>
+                    <a href="#" class="content__theme__link" id="themeTwo">2</a>
+                    <a href="#" class="content__theme__link" id="themeThree">3</a>
+                </nav>
+            </div>
+        </div>
+        
+      </header>
+
+      <!-- CALCULATOR SCREEN -->
+
+      <div class="calculator__screen"></div>
+
+      <!-- CALCULATOR BUTTONS -->
+
+      <div class="calculator__keypad">
+          <button class="calculator__button button__number">7</button>
+          <button class="calculator__button button__number">8</button>
+          <button class="calculator__button button__number">9</button>
+          <button class="calculator__button button__reset__del" id="delete">DEL</button>
+          <button class="calculator__button button__number">4</button>
+          <button class="calculator__button button__number">5</button>
+          <button class="calculator__button button__number">6</button>
+          <button class="calculator__button button__operator">+</button>
+          <button class="calculator__button button__number">1</button>
+          <button class="calculator__button button__number">2</button>
+          <button class="calculator__button button__number">3</button>
+          <button class="calculator__button button__operator">-</button>
+          <button class="calculator__button button__number">.</button>
+          <button class="calculator__button button__number">0</button>
+          <button class="calculator__button button__operator">/</button>
+          <button class="calculator__button button__operator">x</button>
+          <button class="calculator__button span button__reset__del" id="reset">RESET</button>
+          <button class="calculator__button span button__total button__equal">=</button>
+      </div>
+
+    </main>
+
+</body>
+</html>
